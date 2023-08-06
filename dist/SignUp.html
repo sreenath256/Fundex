@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fundex</title>
+    <link rel="stylesheet" href="output.css">
+    <link rel="stylesheet" href="SignUp.css">
+    <link rel="icon" href="./Assets/Logo.png" type="image/x-icon">
+    <script src="https://kit.fontawesome.com/f41fc9b91b.js" crossorigin="anonymous"></script>
+    <script src="./index.js"></script>
+</head>
+<body style="background-color: #bdd7ff;">
+    <section>
+        <nav class=" fixed bg-white w-full   h-24 flex items-center text-primary p-3 nav ">
+            <div class="w-40 ">
+                <img src="./Assets/logo_transparent.png" alt="">
+            </div>
+            <div class="hidden links" >
+                <a href="#" style="margin-right: 1.26rem;">Product</a>
+                <a href="#" style="margin-right: 1.26rem;">For Investor</a>
+                <a href="#" style="margin-right: 1.26rem;">For Founder</a>
+                
+                <button style="margin-right: 1.26rem;" class="w-24 h-10 bg-white text-primary border-2 border-primary rounded-2xl "> <a href="Login.html">Sign In</a></button>
+                <button class="w-24 h-10 bg-primary  text-white  rounded-2xl"><a href="SignUp.html"> Sign Up </a></button>
+
+            </div>
+            <div class= "w-auto p-2  animate text-primary bars" onclick="handleAnime()" id="animate" style="position: relative; right: 0;">
+                <i class="fa-solid fa-bars-staggered fa-2xl active:fa-shake"></i>
+            </div>
+
+        </nav>
+
+        <div style="padding-top: 8rem; display: flex; justify-content: center;">
+
+            <div class="choice-box">
+                <div class="investor-section1">
+                    <img class="investor-image" src="https://global-uploads.webflow.com/61c1ae3ff5494602327bf16a/61c1ae40f5494611737bf1f1_blue-card-investor.png" alt="">
+                    <h1 class="investor-title">INVESTORS PLATFORM TO FUND STARTUPS</h1>
+                    <h1 class="investor-sub-title">I am an Investor</h1>
+                    <h1 class="investor-details">Get access to thousands of verified startups to invest in & expand your investment portfolio.</h1>
+                    <button class="investor-button"><a href="InvestorSignUp.html">Sign up</a></button>
+                </div>
+
+                <div class="startup-section">
+                    <img class="investor-image" src="https://global-uploads.webflow.com/61c1ae3ff5494602327bf16a/61c1ae40f54946f3ef7bf1f0_blue-card-startup.png" alt="">
+                    <h1 class="investor-title">FOUNDERS APPLY NOW TO RAISE</h1>
+                    <h1 class="investor-sub-title">I am a Startup</h1>
+                    <h1 class="investor-details">Get access to thousands of accredited investors & bring value added capital to your cap table.</h1>
+                    <button class="investor-button"><a href="">Sign up</a></button>
+                </div>
+                
+                
+            </div>
+        </div>
+    </section>
+    
+</body>
+</html>
